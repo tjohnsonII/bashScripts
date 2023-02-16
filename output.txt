@@ -1,0 +1,530 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-02-02 21:39 EST
+NSE: Loaded 155 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 21:39
+Completed NSE at 21:39, 0.00s elapsed
+Initiating NSE at 21:39
+Completed NSE at 21:39, 0.00s elapsed
+Initiating NSE at 21:39
+Completed NSE at 21:39, 0.00s elapsed
+Initiating Ping Scan at 21:39
+Scanning 235 hosts [2 ports/host]
+Completed Ping Scan at 21:40, 18.59s elapsed (235 total hosts)
+Initiating Connect Scan at 21:40
+Scanning 17 hosts [1000 ports/host]
+Discovered open port 3389/tcp on 192.168.1.136
+Discovered open port 23/tcp on 192.168.1.6
+Discovered open port 23/tcp on 192.168.1.54
+Discovered open port 3306/tcp on 192.168.1.3
+Discovered open port 53/tcp on 192.168.1.1
+Discovered open port 135/tcp on 192.168.1.136
+Discovered open port 443/tcp on 192.168.1.6
+Discovered open port 443/tcp on 192.168.1.54
+Discovered open port 443/tcp on 192.168.1.1
+Discovered open port 3306/tcp on 192.168.1.136
+Discovered open port 22/tcp on 192.168.1.54
+Discovered open port 80/tcp on 192.168.1.54
+Discovered open port 139/tcp on 192.168.1.136
+Discovered open port 22/tcp on 192.168.1.3
+Discovered open port 22/tcp on 192.168.1.6
+Discovered open port 80/tcp on 192.168.1.3
+Discovered open port 80/tcp on 192.168.1.6
+Discovered open port 22/tcp on 192.168.1.136
+Discovered open port 22/tcp on 192.168.1.227
+Discovered open port 80/tcp on 192.168.1.136
+Discovered open port 445/tcp on 192.168.1.136
+Discovered open port 445/tcp on 192.168.1.227
+Discovered open port 22/tcp on 192.168.1.5
+Discovered open port 22/tcp on 192.168.1.223
+Discovered open port 80/tcp on 192.168.1.1
+Discovered open port 53/tcp on 192.168.1.235
+Discovered open port 22/tcp on 192.168.1.235
+Discovered open port 80/tcp on 192.168.1.235
+Discovered open port 8009/tcp on 192.168.1.10
+Discovered open port 8009/tcp on 192.168.1.9
+Discovered open port 8009/tcp on 192.168.1.11
+Discovered open port 2105/tcp on 192.168.1.136
+Discovered open port 7000/tcp on 192.168.1.227
+Discovered open port 9000/tcp on 192.168.1.10
+Discovered open port 9000/tcp on 192.168.1.9
+Discovered open port 631/tcp on 192.168.1.1
+Discovered open port 9000/tcp on 192.168.1.11
+Discovered open port 8008/tcp on 192.168.1.10
+Discovered open port 9080/tcp on 192.168.1.8
+Increasing send delay for 192.168.1.18 from 0 to 5 due to max_successful_tryno increase to 4
+Discovered open port 8008/tcp on 192.168.1.9
+Increasing send delay for 192.168.1.17 from 0 to 5 due to max_successful_tryno increase to 4
+Discovered open port 8008/tcp on 192.168.1.11
+Increasing send delay for 192.168.1.18 from 5 to 10 due to max_successful_tryno increase to 5
+Increasing send delay for 192.168.1.17 from 5 to 10 due to max_successful_tryno increase to 5
+Increasing send delay for 192.168.1.17 from 10 to 20 due to max_successful_tryno increase to 6
+Increasing send delay for 192.168.1.18 from 10 to 20 due to max_successful_tryno increase to 6
+Discovered open port 912/tcp on 192.168.1.136
+Discovered open port 902/tcp on 192.168.1.136
+Increasing send delay for 192.168.1.18 from 20 to 40 due to max_successful_tryno increase to 7
+Discovered open port 10001/tcp on 192.168.1.9
+Discovered open port 10001/tcp on 192.168.1.11
+Increasing send delay for 192.168.1.18 from 40 to 80 due to max_successful_tryno increase to 8
+Increasing send delay for 192.168.1.17 from 20 to 40 due to max_successful_tryno increase to 7
+Increasing send delay for 192.168.1.17 from 40 to 80 due to max_successful_tryno increase to 8
+Completed Connect Scan against 192.168.1.54 in 41.39s (16 hosts left)
+Increasing send delay for 192.168.1.18 from 80 to 160 due to max_successful_tryno increase to 9
+Discovered open port 2103/tcp on 192.168.1.136
+Discovered open port 1801/tcp on 192.168.1.136
+Discovered open port 5357/tcp on 192.168.1.136
+Increasing send delay for 192.168.1.17 from 80 to 160 due to 11 out of 35 dropped probes since last increase.
+Completed Connect Scan against 192.168.1.6 in 53.68s (15 hosts left)
+Discovered open port 2107/tcp on 192.168.1.136
+Completed Connect Scan against 192.168.1.136 in 62.42s (14 hosts left)
+Completed Connect Scan against 192.168.1.235 in 62.61s (13 hosts left)
+Discovered open port 9503/tcp on 192.168.1.227
+Discovered open port 8443/tcp on 192.168.1.10
+Completed Connect Scan against 192.168.1.3 in 63.24s (12 hosts left)
+Discovered open port 5000/tcp on 192.168.1.227
+Completed Connect Scan against 192.168.1.10 in 63.37s (11 hosts left)
+Completed Connect Scan against 192.168.1.227 in 63.83s (10 hosts left)
+Completed Connect Scan against 192.168.1.13 in 64.22s (9 hosts left)
+Discovered open port 8443/tcp on 192.168.1.9
+Discovered open port 8443/tcp on 192.168.1.11
+Completed Connect Scan against 192.168.1.9 in 64.36s (8 hosts left)
+Completed Connect Scan against 192.168.1.11 in 64.40s (7 hosts left)
+Completed Connect Scan against 192.168.1.8 in 64.66s (6 hosts left)
+Completed Connect Scan against 192.168.1.223 in 64.74s (5 hosts left)
+Completed Connect Scan against 192.168.1.4 in 64.87s (4 hosts left)
+Completed Connect Scan against 192.168.1.5 in 64.88s (3 hosts left)
+Completed Connect Scan against 192.168.1.1 in 64.94s (2 hosts left)
+Increasing send delay for 192.168.1.18 from 160 to 320 due to max_successful_tryno increase to 10
+Completed Connect Scan against 192.168.1.17 in 138.67s (1 host left)
+Completed Connect Scan at 21:43, 228.23s elapsed (17000 total ports)
+Initiating Service scan at 21:43
+Scanning 54 services on 17 hosts
+Completed Service scan at 21:46, 131.88s elapsed (54 services on 17 hosts)
+NSE: Script scanning 17 hosts.
+Initiating NSE at 21:46
+Completed NSE at 21:48, 116.48s elapsed
+Initiating NSE at 21:48
+Completed NSE at 21:48, 55.70s elapsed
+Initiating NSE at 21:48
+Completed NSE at 21:48, 0.00s elapsed
+Nmap scan report for 192.168.1.1
+Host is up (0.0029s latency).
+Not shown: 994 closed tcp ports (conn-refused)
+PORT      STATE    SERVICE  VERSION
+21/tcp    filtered ftp
+53/tcp    open     domain   dnsmasq 2.80
+| dns-nsid: 
+|_  bind.version: dnsmasq-2.80
+80/tcp    open     http     uhttpd 1.0.0 (Netgear R9000 WAP http config)
+|_http-title:  401 Authorization
+| http-methods: 
+|_  Supported Methods: GET
+| http-auth: 
+| HTTP/1.0 401 Unauthorized\x0D
+|_  Basic realm=NETGEAR R9000
+|_http-server-header: uhttpd/1.0.0
+443/tcp   open     ssl/http uhttpd 1.0.0 (Netgear R9000 WAP http config)
+| http-auth: 
+| HTTP/1.0 401 Unauthorized\x0D
+|_  Basic realm=NETGEAR R9000
+|_http-title:  401 Authorization
+|_http-server-header: uhttpd/1.0.0
+| ssl-cert: Subject: commonName=www.routerlogin.net/organizationName=Netgear/stateOrProvinceName=California/countryName=US
+| Subject Alternative Name: DNS:www.routerlogin.net, DNS:routerlogin.net, DNS:www.orbilogin.com, DNS:orbilogin.net, DNS:routerlogin.com, DNS:orbilogin.com, DNS:www.routerlogin.com, DNS:www.orbilogin.net
+| Issuer: commonName=www.routerlogin.net/organizationName=Netgear/stateOrProvinceName=California/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2022-05-18T20:51:34
+| Not valid after:  2032-05-15T20:51:34
+| MD5:   1d80fbac02c6813803236aa52e379ad6
+|_SHA-1: 688671c77c540be8d7c1eb8af8b543c1d8c2ee66
+| http-methods: 
+|_  Supported Methods: GET
+631/tcp   open     ipp?
+20005/tcp filtered btx
+Service Info: Device: WAP; CPE: cpe:/h:netgear:r9000
+
+Nmap scan report for 192.168.1.3
+Host is up (0.0038s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 9.1p1 Debian 1 (protocol 2.0)
+| ssh-hostkey: 
+|   256 4bf5a7165999cea949baec5357a74fb7 (ECDSA)
+|_  256 4846f40d7a31405b2fe381a9b0620315 (ED25519)
+80/tcp   open  http    Apache httpd 2.4.54
+| http-methods: 
+|_  Supported Methods: HEAD GET POST OPTIONS
+| http-ls: Volume /
+| SIZE  TIME              FILENAME
+| -     2023-01-09 14:17  WebSiteDev/
+| 10K   2022-09-04 21:21  index.html.bak
+| 615   2022-09-04 21:20  index.nginx-debian.html
+|_
+|_http-title: Index of /
+|_http-server-header: Apache/2.4.54 (Debian)
+3306/tcp open  mysql   MySQL (unauthorized)
+Service Info: Host: basement.com; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.1.4
+Host is up (0.0024s latency).
+All 1000 scanned ports on 192.168.1.4 are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Nmap scan report for 192.168.1.5
+Host is up (0.0022s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 9.0p1 Debian 1+b1 (protocol 2.0)
+| ssh-hostkey: 
+|   256 6290bc726c514afaa7692e58c16bd9fd (ECDSA)
+|_  256 a30fd5642d1b1533ef13544b8eed8b54 (ED25519)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.1.6
+Host is up (0.0045s latency).
+Not shown: 996 closed tcp ports (conn-refused)
+PORT    STATE SERVICE    VERSION
+22/tcp  open  ssh        Cisco SSH 1.25 (protocol 2.0)
+| ssh-hostkey: 
+|_  2048 f03c2741696e41fdec0f0730ad9aefd4 (RSA)
+23/tcp  open  telnet     Cisco router telnetd
+80/tcp  open  http       Cisco IOS http config
+|_http-title: Site doesn't have a title.
+| http-auth: 
+| HTTP/1.1 401 Unauthorized\x0D
+|_  Basic realm=level_15_access
+|_http-server-header: cisco-IOS
+| http-methods: 
+|_  Supported Methods: POST
+443/tcp open  ssl/https?
+|_ssl-date: 1993-04-10T06:32:00+00:00; -29y298d20h16m05s from scanner time.
+| ssl-cert: Subject: commonName=IOS-Self-Signed-Certificate-3364437760
+| Subject Alternative Name: DNS:THATCHER_MERRICK_SWITCH.THATCHER_MERRICK.com
+| Issuer: commonName=IOS-Self-Signed-Certificate-3364437760
+| Public Key type: rsa
+| Public Key bits: 1024
+| Signature Algorithm: md5WithRSAEncryption
+| Not valid before: 1993-03-01T00:03:16
+| Not valid after:  2020-01-01T00:00:00
+| MD5:   a72ec40b481f923e7933a50345a057eb
+|_SHA-1: ef827d94c7b39ef99fa18bcede11f529d7c395f3
+Service Info: OS: IOS; Device: router; CPE: cpe:/o:cisco:ios
+
+Host script results:
+|_clock-skew: -10890d20h16m05s
+
+Nmap scan report for 192.168.1.8
+Host is up (0.0066s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT     STATE SERVICE VERSION
+9080/tcp open  http    Mongoose httpd
+|_http-title: Site doesn't have a title (application/json).
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+
+Nmap scan report for 192.168.1.9
+Host is up (0.0087s latency).
+Not shown: 995 closed tcp ports (conn-refused)
+PORT      STATE SERVICE         VERSION
+8008/tcp  open  http?
+|_http-title: Site doesn't have a title (text/html).
+8009/tcp  open  ssl/castv2      Ninja Sphere Chromecast driver
+|_ajp-methods: Failed to get a valid response for the OPTION request
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=262dcd39-abaa-f684-d71a-1c2224e71625
+| Issuer: commonName=262dcd39-abaa-f684-d71a-1c2224e71625
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2023-02-01T21:52:04
+| Not valid after:  2023-02-03T21:52:04
+| MD5:   f188d83082f4a9768cb5f71d72277401
+|_SHA-1: 6453dfa642de8e2eaa706efeeab4f05a30fda55e
+8443/tcp  open  ssl/https-alt?
+| ssl-cert: Subject: commonName=3XNG6G FA8FCA896426/organizationName=Google Inc/stateOrProvinceName=California/countryName=US
+| Issuer: commonName=Chromecast ICA 3/organizationName=Google Inc/stateOrProvinceName=California/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2015-07-24T05:11:30
+| Not valid after:  2035-07-19T05:11:30
+| MD5:   57ab1426a24a65bdc1cfba9d435d4a65
+|_SHA-1: 56d81d54fa0e90dcd5d4e50ae5df59758194aac7
+|_http-title: Site doesn't have a title (text/html).
+9000/tcp  open  ssl/cslistener?
+10001/tcp open  ssl/scp-config?
+
+Nmap scan report for 192.168.1.10
+Host is up (0.0064s latency).
+Not shown: 996 closed tcp ports (conn-refused)
+PORT     STATE SERVICE         VERSION
+8008/tcp open  http?
+|_http-title: Site doesn't have a title (text/html).
+8009/tcp open  ssl/ajp13?
+|_ajp-methods: Failed to get a valid response for the OPTION request
+|_ssl-date: 2023-02-03T02:48:04+00:00; +1s from scanner time.
+| ssl-cert: Subject: commonName=4cc46e46-5209-b3cc-2dab-49305e6ba7e0
+| Issuer: commonName=4cc46e46-5209-b3cc-2dab-49305e6ba7e0
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2023-02-01T19:51:08
+| Not valid after:  2023-02-03T19:51:08
+| MD5:   c12a2e6b38fc80b77a71bcab5043eefb
+|_SHA-1: 0775d8d7f8b09f31adf5307565efdf0cd8da4d28
+8443/tcp open  ssl/https-alt?
+| ssl-cert: Subject: commonName=PLX96 FA8FCA929C3C/organizationName=Google Inc/stateOrProvinceName=California/countryName=US
+| Issuer: commonName=Eureka Gen1 ICA/organizationName=Google Inc/stateOrProvinceName=California/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2014-09-12T05:53:08
+| Not valid after:  2034-09-07T05:53:08
+| MD5:   22d840b6481bdba18e3f587a67a9d7ff
+|_SHA-1: 1edd10e0ec12f3e801e9db1154e86a6cee68e080
+9000/tcp open  ssl/cslistener?
+
+Nmap scan report for 192.168.1.11
+Host is up (0.0035s latency).
+Not shown: 995 closed tcp ports (conn-refused)
+PORT      STATE SERVICE         VERSION
+8008/tcp  open  http?
+|_http-title: Site doesn't have a title (text/html).
+8009/tcp  open  ssl/ajp13?
+|_ssl-date: TLS randomness does not represent time
+|_ajp-methods: Failed to get a valid response for the OPTION request
+| ssl-cert: Subject: commonName=7acb2715-ba29-60b4-7d71-d968bbbbc872
+| Issuer: commonName=7acb2715-ba29-60b4-7d71-d968bbbbc872
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2023-02-01T21:52:31
+| Not valid after:  2023-02-03T21:52:31
+| MD5:   7f879b5812afcfb0df5e466221f6a5d3
+|_SHA-1: fb5c111c224e100c6f2918941b9fef5f9ce2c1d5
+8443/tcp  open  ssl/https-alt?
+|_http-title: Site doesn't have a title (text/html).
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+| ssl-cert: Subject: commonName=CYHLOD FA8FCA71A625/organizationName=Google Inc/stateOrProvinceName=California/countryName=US
+| Issuer: commonName=Chromecast ICA 5 (4K)/organizationName=Google Inc/stateOrProvinceName=California/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2016-10-27T00:39:19
+| Not valid after:  2036-10-22T00:39:19
+| MD5:   1caefd61c27adf236586e91f3c4c9ce7
+|_SHA-1: 0fcc31b7630790fcd103d2ed54d0ceb8622a6437
+9000/tcp  open  ssl/cslistener?
+10001/tcp open  ssl/scp-config?
+
+Nmap scan report for 192.168.1.13
+Host is up (0.0085s latency).
+All 1000 scanned ports on 192.168.1.13 are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Nmap scan report for 192.168.1.17
+Host is up (0.017s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT      STATE    SERVICE VERSION
+55055/tcp filtered unknown
+
+Nmap scan report for 192.168.1.18
+Host is up (0.011s latency).
+All 1000 scanned ports on 192.168.1.18 are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Nmap scan report for 192.168.1.54
+Host is up (0.0045s latency).
+Not shown: 996 closed tcp ports (conn-refused)
+PORT    STATE SERVICE    VERSION
+22/tcp  open  ssh        Cisco SSH 1.25 (protocol 2.0)
+23/tcp  open  telnet     Cisco IOS telnetd
+80/tcp  open  http       Cisco IOS http config
+|_http-title: Site doesn't have a title.
+| http-auth: 
+| HTTP/1.1 401 Unauthorized\x0D
+|_  Basic realm=level_15_access
+| http-methods: 
+|_  Supported Methods: POST
+|_http-server-header: cisco-IOS
+443/tcp open  ssl/https?
+|_ssl-date: 1993-03-28T05:59:59+00:00; -29y311d20h48m05s from scanner time.
+| ssl-cert: Subject: commonName=IOS-Self-Signed-Certificate-547466880
+| Subject Alternative Name: DNS:LIVINGROOMMAINSWITCH.livingroomSwitch.com
+| Issuer: commonName=IOS-Self-Signed-Certificate-547466880
+| Public Key type: rsa
+| Public Key bits: 1024
+| Signature Algorithm: md5WithRSAEncryption
+| Not valid before: 1993-03-01T00:04:51
+| Not valid after:  2020-01-01T00:00:00
+| MD5:   aacfc14920755272d9d51c5b4a9f6579
+|_SHA-1: 561d9f49e6ab10fe756e61acb0a4a65e0587f97b
+Service Info: OS: IOS; Device: switch; CPE: cpe:/o:cisco:ios
+
+Host script results:
+|_clock-skew: -10903d20h48m05s
+
+Nmap scan report for 192.168.1.136
+Host is up (0.0027s latency).
+Not shown: 986 closed tcp ports (conn-refused)
+PORT     STATE SERVICE            VERSION
+22/tcp   open  ssh                OpenSSH for_Windows_8.6 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 5c1f7e2402d6ba40edef3e2661583a02 (RSA)
+|   256 b7daa6186c2a848866f2127002e646f6 (ECDSA)
+|_  256 8b1258cf5e9143565f6e50e3aedd006d (ED25519)
+80/tcp   open  http               Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Not Found
+|_http-server-header: Microsoft-HTTPAPI/2.0
+135/tcp  open  msrpc              Microsoft Windows RPC
+139/tcp  open  netbios-ssn        Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+902/tcp  open  ssl/vmware-auth    VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp  open  vmware-auth        VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+1801/tcp open  msmq?
+2103/tcp open  msrpc              Microsoft Windows RPC
+2105/tcp open  msrpc              Microsoft Windows RPC
+2107/tcp open  msrpc              Microsoft Windows RPC
+3306/tcp open  mysql              MySQL 8.0.32
+| mysql-info: 
+|   Protocol: 10
+|   Version: 8.0.32
+|   Thread ID: 21
+|   Capabilities flags: 65535
+|   Some Capabilities: DontAllowDatabaseTableColumn, Speaks41ProtocolNew, IgnoreSpaceBeforeParenthesis, ConnectWithDatabase, ODBCClient, LongColumnFlag, FoundRows, Speaks41ProtocolOld, SupportsTransactions, SupportsLoadDataLocal, SwitchToSSLAfterHandshake, LongPassword, IgnoreSigpipes, InteractiveClient, Support41Auth, SupportsCompression, SupportsMultipleResults, SupportsMultipleStatments, SupportsAuthPlugins
+|   Status: Autocommit
+|   Salt: vP.7g\x7F_0I{\x103<Pl/x\x1D@%
+|_  Auth Plugin Name: caching_sha2_password
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=MySQL_Server_8.0.32_Auto_Generated_Server_Certificate
+| Issuer: commonName=MySQL_Server_8.0.32_Auto_Generated_CA_Certificate
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2023-01-18T07:08:57
+| Not valid after:  2033-01-15T07:08:57
+| MD5:   7ced962052e95e78cae215221d070a75
+|_SHA-1: 687959500ca5ea43757fcf9e90a6d124c6d5b7e9
+3389/tcp open  ssl/ms-wbt-server?
+| rdp-ntlm-info: 
+|   Target_Name: STUDIOCOMP2
+|   NetBIOS_Domain_Name: STUDIOCOMP2
+|   NetBIOS_Computer_Name: STUDIOCOMP2
+|   DNS_Domain_Name: StudioComp2
+|   DNS_Computer_Name: StudioComp2
+|   Product_Version: 10.0.22621
+|_  System_Time: 2023-02-03T02:46:14+00:00
+| ssl-cert: Subject: commonName=StudioComp2
+| Issuer: commonName=StudioComp2
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2022-10-09T17:54:26
+| Not valid after:  2023-04-10T17:54:26
+| MD5:   8f531d134827b1623c14f135bcc7fce3
+|_SHA-1: ea54d46d50412f6697c1d335112062e9ea53a841
+|_ssl-date: TLS randomness does not represent time
+5357/tcp open  http               Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Service Unavailable
+|_http-server-header: Microsoft-HTTPAPI/2.0
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   311: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2023-02-03T02:46:30
+|_  start_date: N/A
+| nbstat: NetBIOS name: STUDIOCOMP2, NetBIOS user: <unknown>, NetBIOS MAC: 8cec4b6d85f5 (Dell)
+| Names:
+|   STUDIOCOMP2<00>      Flags: <unique><active>
+|   WORKGROUP<00>        Flags: <group><active>
+|_  STUDIOCOMP2<20>      Flags: <unique><active>
+
+Nmap scan report for 192.168.1.223
+Host is up (0.0046s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 9.0p1 Debian 1+b1 (protocol 2.0)
+| ssh-hostkey: 
+|   256 6290bc726c514afaa7692e58c16bd9fd (ECDSA)
+|_  256 a30fd5642d1b1533ef13544b8eed8b54 (ED25519)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.1.227
+Host is up (0.00013s latency).
+Not shown: 995 closed tcp ports (conn-refused)
+PORT     STATE SERVICE       VERSION
+22/tcp   open  tcpwrapped
+|_ssh-hostkey: ERROR: Script execution failed (use -d to debug)
+445/tcp  open  microsoft-ds?
+5000/tcp open  rtsp          AirTunes rtspd 670.6.2
+|_rtsp-methods: ERROR: Script execution failed (use -d to debug)
+7000/tcp open  rtsp          AirTunes rtspd 670.6.2
+|_irc-info: Unable to open connection
+|_rtsp-methods: ERROR: Script execution failed (use -d to debug)
+9503/tcp open  unknown
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest, HTTPOptions, RTSPRequest, SIPOptions: 
+|     HTTP/1.1 500 Internal Server Error
+|     Connection: Close
+|   GenericLines, SSLSessionReq, TLSSessionReq: 
+|     HTTP/1.1 400 Bad Request
+|_    Connection: Close
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port9503-TCP:V=7.93%I=7%D=2/2%Time=63DC7502%P=x86_64-apple-darwin22.1.0
+SF:%r(GenericLines,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x
+SF:20Close\r\n\r\n")%r(GetRequest,39,"HTTP/1\.1\x20500\x20Internal\x20Serv
+SF:er\x20Error\r\nConnection:\x20Close\r\n\r\n")%r(HTTPOptions,39,"HTTP/1\
+SF:.1\x20500\x20Internal\x20Server\x20Error\r\nConnection:\x20Close\r\n\r\
+SF:n")%r(RTSPRequest,39,"HTTP/1\.1\x20500\x20Internal\x20Server\x20Error\r
+SF:\nConnection:\x20Close\r\n\r\n")%r(SSLSessionReq,2F,"HTTP/1\.1\x20400\x
+SF:20Bad\x20Request\r\nConnection:\x20Close\r\n\r\n")%r(TLSSessionReq,2F,"
+SF:HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20Close\r\n\r\n")%r(
+SF:FourOhFourRequest,39,"HTTP/1\.1\x20500\x20Internal\x20Server\x20Error\r
+SF:\nConnection:\x20Close\r\n\r\n")%r(SIPOptions,39,"HTTP/1\.1\x20500\x20I
+SF:nternal\x20Server\x20Error\r\nConnection:\x20Close\r\n\r\n");
+
+Host script results:
+| smb2-time: 
+|   date: 2023-02-03T02:46:17
+|_  start_date: N/A
+| smb2-security-mode: 
+|   302: 
+|_    Message signing enabled and required
+|_clock-skew: -1s
+
+Nmap scan report for 192.168.1.235
+Host is up (0.0024s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.9 (protocol 2.0)
+53/tcp open  domain  Unbound
+80/tcp open  http    nginx
+|_http-title: pfSense - Login
+
+NSE: Script Post-scanning.
+Initiating NSE at 21:48
+Completed NSE at 21:48, 0.00s elapsed
+Initiating NSE at 21:48
+Completed NSE at 21:48, 0.00s elapsed
+Initiating NSE at 21:48
+Completed NSE at 21:48, 0.00s elapsed
+Post-scan script results:
+| clock-skew: 
+|   0s: 
+|     192.168.1.136
+|_    192.168.1.10
+| ssh-hostkey: Possible duplicate hosts
+| Key 256 a30fd5642d1b1533ef13544b8eed8b54 (ED25519) used by:
+|   192.168.1.5
+|   192.168.1.223
+| Key 256 6290bc726c514afaa7692e58c16bd9fd (ECDSA) used by:
+|   192.168.1.5
+|_  192.168.1.223
+Read data files from: /usr/local/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 235 IP addresses (17 hosts up) scanned in 552.49 seconds
